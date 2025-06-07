@@ -43,7 +43,7 @@ function Home () {
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
-            The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide strait connecting San Francisco Bay and the Pacific Ocean
+            I specialize in turning creative concepts into fully functional digital solutions. From intuitive user interfaces to responsive web applications, I bring ideas to life with clean code, modern design, and a focus on user experience. Whether it`&apos`s a personal brand or a business platform, I transform your vision into a powerful online presence.
           </motion.p>
           {/* btn */ }
           <div
@@ -84,7 +84,7 @@ function Home () {
           transition={{duration: 1, ease: 'easeInOut'}}
           className='w-full h-full max-w-[700px] max-h-[600px] absolute -bottom-32 lg:bottom-0 lg:right-[2%]'
         >
-         <Avatar />
+          <Avatar />
         </motion.div>
       </div> 
     </div>
