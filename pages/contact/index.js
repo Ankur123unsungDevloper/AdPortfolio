@@ -71,7 +71,7 @@ function Contact() {
               <span
                 className='group-hover:-translate-y-[120%] group-hover:opactiy-0 transition-all duration-500'
               >
-                Let's talk
+                Let&apos;s talk
               </span>
               <BsArrowRight
                 className='-translate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]'

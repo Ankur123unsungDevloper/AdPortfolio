@@ -43,7 +43,7 @@ function Home () {
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
-            I specialize in turning creative concepts into fully functional digital solutions. From intuitive user interfaces to responsive web applications, I bring ideas to life with clean code, modern design, and a focus on user experience. Whether it`&apos`s a personal brand or a business platform, I transform your vision into a powerful online presence.
+            I specialize in turning creative concepts into fully functional digital solutions. From intuitive user interfaces to responsive web applications, I bring ideas to life with clean code, modern design, and a focus on user experience. Whether it&apos;s a personal brand or a business platform, I transform your vision into a powerful online presence.
           </motion.p>
           {/* btn */ }
           <div
