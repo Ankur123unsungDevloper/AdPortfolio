@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import React, { useState } from "react";
 
 // icons
@@ -141,7 +142,7 @@ function About() {
             exit='hidden'
             className='max-x-[500px] mx-auto xl:mx-0 mb-6xl:mb-12 px-2 xl:px-0'
           >
-            10 years ago, I began freelancing as a devloper. Since then, I've done remote work for agencies, cousulted for startups, and collaborted on digital products for business and consumer use.
+            10 years ago, I began freelancing as a devloper. Since then, I&apos;ve done remote work for agencies, cousulted for startups, and collaborted on digital products for business and consumer use.
           </motion.p>
           {/* counters */ }
           <motion.div
