@@ -1,5 +1,5 @@
+import { siteConfig } from '../../config/site'
 import './globals.css'
-import { siteConfig } from "@/config/site";
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
