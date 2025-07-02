@@ -142,7 +142,7 @@ function About() {
             exit='hidden'
             className='max-x-[500px] mx-auto xl:mx-0 mb-6xl:mb-12 px-2 xl:px-0'
           >
-            10 years ago, I began freelancing as a devloper. Since then, I&apos;ve done remote work for agencies, cousulted for startups, and collaborted on digital products for business and consumer use.
+            1 years ago, I began freelancing as a developer. Since then, I&apos;ve done remote work for agencies, consulted for startups, and collaborated on digital products for business and consumer use.
           </motion.p>
           {/* counters */ }
           <motion.div
@@ -164,7 +164,7 @@ function About() {
                 >
                   <CountUp
                     start={ 0 }
-                    end={ 10 }
+                    end={ 1 }
                     duration={5}
                   /> +
                 </div>
