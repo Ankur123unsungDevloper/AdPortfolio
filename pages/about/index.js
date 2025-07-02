@@ -7,7 +7,6 @@ import {
   FaCss3,
   FaJs,
   FaReact,
-  FaWordpress,
   FaFigma,
 } from "react-icons/fa";
 
@@ -33,7 +32,6 @@ const aboutData = [
           <FaReact  />,
           <SiNextdotjs  />,
           <SiFramer  />,
-          <FaWordpress  />,
         ],
       },
       {
@@ -181,7 +179,7 @@ function About() {
                 >
                   <CountUp
                     start={ 0 }
-                    end={ 250 }
+                    end={ 0 }
                     duration={5}
                   /> +
                 </div>
@@ -200,7 +198,7 @@ function About() {
                 >
                   <CountUp
                     start={ 0 }
-                    end={ 650 }
+                    end={ 0 }
                     duration={5}
                   /> +
                 </div>
@@ -219,7 +217,7 @@ function About() {
                 >
                   <CountUp
                     start={ 0 }
-                    end={ 8 }
+                    end={ 0 }
                     duration={5}
                   /> +
                 </div>
@@ -243,22 +241,22 @@ function About() {
           <div
             className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'
           >
-           { aboutData.map((item, itemIndex) => {
+            { aboutData.map((item, itemIndex) => {
               return (
-               <div
-                 key={ itemIndex }
+                <div
+                  key={ itemIndex }
                   className={
                     `${
                       index === itemIndex &&
-                     'text-accent after:w-full after:bg-accent after:transition-all after:duration-300'
+                      'text-accent after:w-full after:bg-accent after:transition-all after:duration-300'
                     } 
-                   cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`
+                    cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`
                   }
                   onClick={() => setIndex(itemIndex)}
                 >
                   {item.title}
-               </div>
-             );
+                </div>
+              );
             })}
           </div>
           <div
