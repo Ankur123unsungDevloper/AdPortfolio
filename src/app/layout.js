@@ -10,6 +10,10 @@ export const metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
+  icon: {
+    url: "/public/logo.png",
+    href: "/public/logo.png",
+  }
 }
 
 export default function RootLayout({ children }) {

@@ -56,16 +56,16 @@ const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Frontend Devlopment - Meta Scifor',
+        stage: 'April 2025 - Present',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
+        title: 'Web Developer - Labmentix',
+        stage: 'April 2025 - June 2025',
       },
       {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Full stack Web Developer - Dynamite Webtech',
+        stage: 'March 2025 - May 2025',
       },
     ],
   },
@@ -73,16 +73,20 @@ const aboutData = [
     title: 'credentials',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'MCA - Master of Computer Applications',
+        stage: '2024 - Present',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
+        title: 'BCA - Bachelor of Computer Applications',
+        stage: '2021 - 2024',
       },
       {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'Certificate - Web Development (Coursera)',
+        stage: 'Issued: May 2024',
+      },
+      {
+        title: 'Certificate - JavaScript Mastery (Udemy)',
+        stage: 'Issued: Feb 2024',
       },
     ],
   },
