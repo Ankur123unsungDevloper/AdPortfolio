@@ -39,8 +39,7 @@ function Work() {
               exit="hidden"
               className='mb-4 max-w-[400px] mx-auto lg:mx-0'
             >
-              The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the
-              one-mile-wide strait connecting San Francisco Bay and the Pacific Ocean
+              From crafting intuitive user interfaces to building full-stack web applications, my work reflects a blend of design precision and technical depth. Each project is a step forward in solving real-world problems through clean code, responsive design, and engaging user experiences.
             </motion.p>
           </div>
           <motion.div
