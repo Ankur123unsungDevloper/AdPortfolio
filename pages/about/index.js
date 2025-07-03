@@ -15,7 +15,10 @@ import {
   SiFramer,
   SiAdobexd,
   SiAdobephotoshop,
+  SiMongodb,
+  SiMysql,
 } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 
 //  data
@@ -31,7 +34,10 @@ const aboutData = [
           <FaJs  />,
           <FaReact  />,
           <SiNextdotjs  />,
-          <SiFramer  />,
+          <SiFramer />,
+          <SiMongodb />,
+          <SiMysql />,
+          <BiLogoPostgresql />,
         ],
       },
       {
@@ -43,14 +49,7 @@ const aboutData = [
   {
     title: 'awards',
     info: [
-      {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
-      },
-      {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
-      },
+      
     ],
   },
   {
