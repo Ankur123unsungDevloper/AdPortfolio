@@ -8,6 +8,11 @@ import {
   HiEnvelope,
 } from 'react-icons/hi2';
 
+// next link
+import Link from 'next/link';
+
+//next router
+import { useRouter } from 'next/router';
 
 // nav data
 export const navData = [
@@ -26,12 +31,6 @@ export const navData = [
     icon: <HiEnvelope />,
   },
 ];
-
-// next link
-import Link from 'next/link';
-
-//next router
-import { useRouter } from 'next/router';
 
 function Nav() {
   const router = useRouter();

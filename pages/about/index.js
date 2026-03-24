@@ -90,6 +90,11 @@ const aboutData = [
       },
     ],
   },
+  {
+    title: 'Resume',
+    info: [
+    ],
+  },
 ];
 
 // components

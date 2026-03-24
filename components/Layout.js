@@ -1,17 +1,17 @@
 //fonts 
 import { Sora } from 'next/font/google';
 
+//components
+import Nav from '../components/Nav';
+import TopLeftImg from '../components/TopLeftImg';
+import Header from '../components/Header';
+
 // font settings
 const sora = Sora({
   subsets: [ 'latin' ],
   variable: '--font-sora',
   weight: [ '100', '200', '300', '400', '500', '700', '800' ]
 });
-
-//components
-import Nav from '../components/Nav';
-import TopLeftImg from '../components/TopLeftImg';
-import Header from '../components/Header';
 
 function Layout({children}) {
   return (
