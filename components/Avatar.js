@@ -7,7 +7,7 @@ function Avatar() {
       className='hidden xl:flex xl:max-w-none'
     >
       <Image
-        src={ '/avatar.png' }
+        src="/avatar.png"
         width={700}
         height={600}
         alt=''
