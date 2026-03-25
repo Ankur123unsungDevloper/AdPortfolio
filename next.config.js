@@ -1,5 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-}
 
-module.exports = nextConfig
+const isProd = process.env.NODE_ENV === 'production';
+
+const nextConfig = {
+  output: 'export',
+  images: { unoptimized: true },
+  basePath: isProd ? '/AdProtfolio' : '',
+  assetPrefix: isProd ? '/AdProtfolio/' : '',
+};
+
+module.exports = nextConfig;

@@ -8,8 +8,8 @@ function Avatar() {
     >
       <Image
         src="/avatar.png"
-        width={700}
-        height={600}
+        width={300}
+        height={200}
         alt=''
         className='translate-z-0 w-full h-full'
       />
