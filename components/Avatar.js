@@ -8,8 +8,8 @@ function Avatar() {
     >
       <Image
         src={ `${process.env.NEXT_PUBLIC_BASE_PATH}/avatar.png` }
-        width={300}
-        height={200}
+        width={700}
+        height={600}
         alt=''
         className='translate-z-0 w-full h-full'
       />
