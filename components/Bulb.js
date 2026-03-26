@@ -8,7 +8,7 @@ function Bulb() {
       className='absolute -left-36 -bottom-12 rotate-12 mix-blend-color-dodge animate-pulse duration-75 z-10 w-[200px] xl:w-[260px]'
     >
       <Image
-        src={ '/bulb.png' }
+        src={ `${process.env.NEXT_PUBLIC_BASE_PATH}/bulb.png` }
         width={260}
         height={200}
         alt=''

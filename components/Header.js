@@ -23,7 +23,7 @@ function Header() {
             href={ '/' }
           >
             <Image
-              src={ '/logo.svg' }
+              src={ `${process.env.NEXT_PUBLIC_BASE_PATH}/logo.svg` }
               width={220}
               height={48}
               className=''

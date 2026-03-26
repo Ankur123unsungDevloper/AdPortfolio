@@ -5,19 +5,19 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: `${process.env.NEXT_PUBLIC_BASE_PATH}/thumb1.jpg`,
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: `${process.env.NEXT_PUBLIC_BASE_PATH}/thumb2.jpg`,
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: `${process.env.NEXT_PUBLIC_BASE_PATH}/thumb3.jpg`,
         },
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: `${process.env.NEXT_PUBLIC_BASE_PATH}/thumb4.jpg`,
         },
       ],
     },
@@ -25,19 +25,19 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: `${process.env.NEXT_PUBLIC_BASE_PATH}/thumb4.jpg`,
         },
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: `${process.env.NEXT_PUBLIC_BASE_PATH}/thumb1.jpg`,
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: `${process.env.NEXT_PUBLIC_BASE_PATH}/thumb2.jpg`,
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: `${process.env.NEXT_PUBLIC_BASE_PATH}/thumb3.jpg`,
         },
       ],
     },

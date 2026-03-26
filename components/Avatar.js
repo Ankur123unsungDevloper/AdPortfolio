@@ -7,7 +7,7 @@ function Avatar() {
       className='hidden xl:flex xl:max-w-none'
     >
       <Image
-        src={'/avatar.png'}
+        src={ `${process.env.NEXT_PUBLIC_BASE_PATH}/avatar.png` }
         width={300}
         height={200}
         alt=''

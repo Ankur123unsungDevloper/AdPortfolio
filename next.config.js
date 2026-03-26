@@ -4,6 +4,9 @@ const nextConfig = {
   images: { unoptimized: true },
   basePath: '/Adportfolio',
   assetPrefix: '/Adportfolio/',
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isProd ? '/AdProtfolio' : '',
+  },
 };
 
 module.exports = nextConfig;
