@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <link
           rel="icon"
-          href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/logo.svg`}
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/logo.png`}
         />
       </Head>
       <body>
